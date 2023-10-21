@@ -53,6 +53,7 @@ section.first-section {
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 
 .first-section-box {
@@ -101,6 +102,65 @@ section.first-section {
     margin-bottom: 20px;
 }
 
+section.fourth-section {
+    background: green;
+    padding: 20px 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.fourth-section-box {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+.fourth-section-box-margin-minus-2 {
+    display: flex;
+    margin-left: -2%;
+}
+
+.fourth-section-part {
+    margin-left: 2%;
+    width: 48%;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-section-part h2 {
+    font-size: 50px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.fourth-section-part p {
+    font-size: 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.one-buttons button {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 400px;
+
+}
+
+.one-buttons button{
+    background: gainsboro;
+    color: black;
+}
+
 .img1 {
     max-width: 50%;
     display: block;
@@ -109,9 +169,13 @@ section.first-section {
     border-radius: 10px;
 }
 
-
-
-
+.img2 {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
 
 .footer {
     background: none ;
